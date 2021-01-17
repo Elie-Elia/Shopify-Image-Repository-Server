@@ -1,6 +1,6 @@
 import express from "express";
 import { Application, Request, Response } from "express";
-import { imageRouter } from './src/routes/image';
+import { imageRouter } from './routes/image';
 import mongoose from 'mongoose';
 import cors from 'cors';
 

@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "skipLibCheck": true,
         "allowSyntheticDefaultImports": true,
         "sourceMap": true,
         "esModuleInterop": true,
@@ -8,7 +9,7 @@
         "rootDir": "src",
         "outDir": "dist",
         "resolveJsonModule": true,
-        "target": "es6",
+        "target": "es2015",
         "lib": [
             "esnext",
             "es2018",
@@ -19,6 +20,6 @@
         "src/**/*.ts"
     ],
     "exclude": [
-        "node_modules",
+        "node_modules"
     ]
 }

@@ -1,3 +1,4 @@
+// @ts-ignore
 const gcs = require('@google-cloud/storage');
 
 const storage = new gcs.Storage({

@@ -1,10 +1,10 @@
 import { Request, Response } from "express";
-import {imageDBInteractions} from "../interactions/image";
+import {imageDBInteractions} from "../Interactions/image";
 import { statusCodes } from '../utils/statusCodes';
 import { IImage } from "../interfaces/image";
 import { Image, IImageModel } from "../models/image";
 import {Tag} from "../interfaces/image";
-import firebase from '../firebase';
+import firebase from '../../firebase';
 
 const validateTags = (tags: Array<string>) => {
     if (!tags) return true;
