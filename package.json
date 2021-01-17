@@ -28,7 +28,6 @@
   "scripts": {
     "build": "npx tsc",
     "start" : "npx tsc && node dist/server.js",
-    //"start": "ts-node server.ts",
     "devStart": "nodemon server.ts"
   },
   "author": "",
